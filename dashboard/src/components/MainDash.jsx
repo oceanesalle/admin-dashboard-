@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "./Card.js";
+import Cards from "./Card";
 import Table from "./Table";
 import "./MainDash.css";
 const MainDash = () => {
