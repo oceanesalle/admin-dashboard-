@@ -5,12 +5,12 @@ import {
   UilUsersAlt,
   UilPackage,
   UilChart,
-  UilSignOutAlt,
+ // UilSignOutAlt,
 } from "@iconscout/react-unicons";
 
 // Analytics Cards imports
-import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
+//import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
+//import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
 // Recent Card Imports
 import img1 from "../assets/img1.png";
@@ -51,7 +51,7 @@ export const cardsData = [
     },
     barValue: 70,
     value: "25,970",
-    png: UilUsdSquare,
+    //png: UilUsdSquare,
     series: [
       {
         name: "Sales",
@@ -67,7 +67,7 @@ export const cardsData = [
     },
     barValue: 80,
     value: "14,270",
-    png: UilMoneyWithdrawal,
+    //png: UilMoneyWithdrawal,
     series: [
       {
         name: "Revenue",

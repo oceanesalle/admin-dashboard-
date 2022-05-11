@@ -1,16 +1,16 @@
-import React from 'react';
-import './App.css';
+import './App.css'
 import MainDash from './components/MainDash';
 import RightSide from './components/RightSide';
 import Sidebar from './components/Sidebar';
 
-
 function App() {
   return (
-    <div>
-      <Sidebar />
-      <MainDash />
-      <RightSide/>
+    <div className="App">
+      <div className="AppGlass">
+        <Sidebar/>
+        <MainDash/>
+        <RightSide/>
+      </div>
     </div>
   );
 }
