@@ -23,12 +23,12 @@ const Card = (props) => {
 
 // Compact Card
 function CompactCard({ param, setExpanded }) {
-  const Png = param.png;
+  const Png = param.Png;
   return (
     <motion.div
       className="CompactCard"
       style={{
-        background: param.color.backGround,
+        background: param.color.background,
         boxShadow: param.color.boxShadow,
       }}
       layoutId="expandableCard"
@@ -107,7 +107,7 @@ function ExpandedCard({ param, setExpanded }) {
     <motion.div
       className="ExpandedCard"
       style={{
-        background: param.color.backGround,
+        background: param.color.background,
         boxShadow: param.color.boxShadow,
       }}
       layoutId="expandableCard"
